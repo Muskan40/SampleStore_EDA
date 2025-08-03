@@ -13,7 +13,7 @@ if fl is not None:
     st.write(filename)
     df=pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\Muskan Gupta\Desktop\streamlit_tut")
+    
     df=pd.read_csv("Sample - Superstore.csv", encoding = "ISO-8859-1")
 col1, col2 = st.columns((2))
 df["Order Date"] = pd.to_datetime(df["Order Date"])
@@ -160,3 +160,4 @@ with st.expander("View Data"):
 # Download orginal DataSet
 csv = df.to_csv(index = False).encode('utf-8')
 st.download_button('Download Data', data = csv, file_name = "Data.csv",mime = "text/csv")
+
