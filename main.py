@@ -6,7 +6,6 @@ import warnings
 warnings.filterwarnings("ignore")
 st.set_page_config(page_title="SuperStore!!", page_icon=":bar_chart:", layout="wide")
 st.title(":bar_chart: Sample SuperStore EDA!!")
-st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 fl= st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
 if fl is not None:
     filename = fl.name
@@ -160,4 +159,5 @@ with st.expander("View Data"):
 # Download orginal DataSet
 csv = df.to_csv(index = False).encode('utf-8')
 st.download_button('Download Data', data = csv, file_name = "Data.csv",mime = "text/csv")
+
 
