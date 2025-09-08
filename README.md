@@ -1,4 +1,4 @@
-link: https://samplestoreeda-fsqqnvuycl76jehxcryaqo.streamlit.app/
+
 # SampleStore_EDA
 
 **Exploratory Data Analysis (EDA) & Interactive Dashboard** for the Sample Superstore dataset.  
