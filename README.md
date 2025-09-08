@@ -1,5 +1,5 @@
 
-# SampleStore_EDA
+# SampleStore
 
 **Exploratory Data Analysis (EDA) & Interactive Dashboard** for the Sample Superstore dataset.  
 This project performs end-to-end EDA, data cleaning, visualization and interactive reporting (Streamlit) to surface business insights for sales, profit, and product performance.
